@@ -1,0 +1,26 @@
+.cabecalho{ /* configuração do cabeçalho*/
+    background-color: var(--cor-fundo);
+    display: flex;
+    justify-content: space-between;
+   
+    padding: 24px 18px;
+}
+.cabecalho_conteiner{ /*div do header*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.cabecalho_menu_hamburguer{
+    background-image: url(../assets/Menu.svg);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cabecalho_link{
+    padding: 8px;
+}
