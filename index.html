@@ -37,10 +37,10 @@
             <section class="carrossel">
                 <h2 class="carrossel_titulo">ÚLTIMOS LANÇAMENTOS</h2>
                 <!-- Slider main container -->
+                
                     <div class="swiper">
                          <!-- If we need pagination -->
                          <div class="swiper-pagination"></div>
-
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
                             <!-- Slides -->
@@ -49,8 +49,88 @@
                             <div class="swiper-slide"><img src="assets/livros/Javascript.svg" alt="Javascript"></div>
                             <div class="swiper-slide"><img src="assets/livros/Portugol.svg" alt="Portugol"></div>
                             <div class="swiper-slide"><img src="assets/livros/Tuning.svg" alt="Tuning"></div>
-
                         </div>
+                    </div>
+                    
+                    <div class="card">
+                                <!--linha 1 do card-->
+                                <div class="card_infos">
+                                        <div class="card_infos_texto">
+                                                <h3 class="card_subtitulo">Talvez você também se interesse por...</h3>
+                                                <h2 class="card_titulo">Angular 11 e Firebase</h2>
+                                                <p class="card_p">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                                        </div>
+                                        <img src="assets/Angular.svg" alt="simbolo A gigante">
+                                </div>
+                                <!--linha 2 do card-->
+                                <div class="card_botoes">
+                                        <div><img src="assets/Favoritos.svg" alt="favoritos">
+                                             <img src="assets/Group.svg" alt="">
+                                        </div>
+                                        <a class="botao"         href="#">Sabia Mais</a>
+                                </div>
+                        </div>
+            </section>
+
+            <section class="carrossel">
+                <h2 class="carrossel_titulo">MAIS VENDIDOS</h2>
+                <!-- Slider main container -->
+                    <div class="swiper">
+                         <!-- If we need pagination -->
+                         <div class="swiper-pagination"></div>
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="assets/livros/ApacheKafka.svg" alt="ApacheKafka"></div>
+                            <div class="swiper-slide"><img src="assets/livros/Arquitetura.svg" alt="Arquitetura"></div>
+                            <div class="swiper-slide"><img src="assets/livros/Javascript.svg" alt="Javascript"></div>
+                            <div class="swiper-slide"><img src="assets/livros/Portugol.svg" alt="Portugol"></div>
+                            <div class="swiper-slide"><img src="assets/livros/Tuning.svg" alt="Tuning"></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                                <!--linha 1 do card-->
+                                <div class="card_infos">
+                                        <div class="card_infos_texto">   
+                                                <img class="card_infos_estrela" src="assets/Estrelinhas.svg" alt="">
+                                                <h3 class="card_subtitulo">Autora do Mês.</h3>
+                                                <h2 class="card_titulo">Angular 11 e Firebase</h2>
+                                                <p class="card_p">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                                        </div>
+                                        <img src="assets/Perfil-escritora 1.svg" alt="simbolo A gigante">
+                                </div>
+                                <!--linha 2 do card-->
+                                <div class="card_botoes">
+                                        <div><img src="assets/Favoritos.svg" alt="favoritos">
+                                             <img src="assets/Group.svg" alt="">
+                                        </div>
+                                        <a class="botao"         href="#">Sabia Mais</a>
+                                </div>
+                        </div>
+            </section>
+
+            <section class="topicos">
+                <h4 class="topicos_titulo">TÓPICOS VISITADOS RECENTEMENTE</h4>
+                <div class="topicos_grupos_link">
+                    <a class="topicos_botao" href="#">android</a>
+                    <a class="topicos_botao" href="#">marketing Digital</a>
+                    <a class="topicos_botao" href="#">Agile</a>
+                    <a class="topicos_botao" href="#">HTML CSS</a>
+                    <a class="topicos_botao" href="#">Startups</a>
+                    <a class="topicos_botao" href="#">Phyton</a>
+                    <a class="topicos_botao" href="#">OO</a>
+                    <a class="topicos_botao" href="#">Java</a>
+                </div>
+                
+            </section>
+            <section class="contato">
+                        <div class="contato_texto">
+                            <h3 class="contato_texto_titulo">Fique por dentro das novidades!</h3>
+
+                            <p class="contato_texto_texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+                        </div>
+                        <input type="email" class="contato_email" placeholder="Cadastre seu e-mail">
+                       
             </section>
       </main>
       <script>
@@ -58,18 +138,21 @@
             // Optional parameters
             spaceBetween: 10,
             slidesPerView: 3,
-            
         
             // If we need pagination
             pagination: {
             el: '.swiper-pagination',
-            type: 'bullets',
+            type: 'bullets',    
             },
     });
 
       </script>
          
-
-     <footer></footer>
+     <footer>
+        <div class="footer-line"></div>
+        <div class="footer-content">
+            <h5 class="rodape_titulo">KayzCorp.2024</h3>
+        </div>
+     </footer>
 </body>
 </html>
